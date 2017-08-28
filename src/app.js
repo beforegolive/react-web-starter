@@ -19,7 +19,7 @@ const history = syncHistoryWithStore(hashHistory, store)
 const App = () => {
 	return (
 		<div>
-			<h1>华为项目管理平台 - 首页</h1>
+			<h1>React Web Starter - 首页</h1>
 			<div className={cssStyles.containerCss}>
 				css style
 				<a href=''>Link</a>
@@ -27,7 +27,6 @@ const App = () => {
 				<Icon icon='back' />
 			</div>
 			<div className={scssStyles.containerScss}>scss style</div>
-			<FirstGridLayout />
 			{process.env.NODE_ENV === 'development' && <DevTools />}
 		</div>
 	)

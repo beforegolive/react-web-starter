@@ -1,8 +1,8 @@
 import { createStore, applyMiddleware, compose } from 'redux'
 import thunk from 'redux-thunk'
 import { routerMiddleware } from 'react-router-redux'
-import rootReducer from 'src/reducers'
-import DevTools from 'src/store/devTools'
+import rootReducer from '../redux/reducers'
+import DevTools from './devTools'
 
 const configureStore = initialState => {
 	const middleWares = [
