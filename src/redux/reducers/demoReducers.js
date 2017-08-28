@@ -1,5 +1,5 @@
 import { createReducers } from './reducerHelper';
-import actions from '../actions/firstAction';
+import actions from '../actions/demoActions';
 
 const initialState = {
   firstActionDispatched: false,

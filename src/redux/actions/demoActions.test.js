@@ -1,7 +1,6 @@
-import actions from './firstAction';
+import actions from './demoActions';
 
 test('nomal action should behave as actionHelper defined', () => {
-  // expect(1).toBe(2)
   const firstActionResult = {
     payload: { x: 123 },
     type: 'firstAction',
