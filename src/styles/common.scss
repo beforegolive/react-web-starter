@@ -1,0 +1,33 @@
+*:focus{
+	outline: none;
+}
+
+h1,h2,h3,h4,h5,h6,
+.h1,.h2,.h3,.h4,.h5,.h6{
+	margin: 0 0 10px 0;
+	font-size: 16px;
+}
+
+li{
+	list-style: none;
+}
+
+img{
+	max-width: 100%;
+}
+
+a{
+	color: blue;
+	&:active,
+	&:focus{
+		opacity: 0.8;
+		outline: none;
+		text-decoration: none;
+		user-select: none;
+	}
+	&:hover{
+		color: green;
+		text-decoration: none;
+		user-select: none;
+	}
+}
