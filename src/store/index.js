@@ -1,7 +1,7 @@
 import { createStore, applyMiddleware, compose } from 'redux'
 import thunk from 'redux-thunk'
 import { routerMiddleware } from 'react-router-redux'
-import rootReducer from '../redux/reducers'
+import rootReducer from 'src/redux/reducers'
 import DevTools from './devTools'
 
 const configureStore = initialState => {
